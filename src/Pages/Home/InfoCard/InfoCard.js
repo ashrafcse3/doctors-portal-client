@@ -30,7 +30,7 @@ const InfoCard = () => {
     ];
 
     return (
-        <div className='mt-14 flex w-screen gap-20 lg:flex-row sm:flex-col'>
+        <div className='mt-14 gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
             {
                 infoDetails.map(info => <EachCard
                     key={info.id}
