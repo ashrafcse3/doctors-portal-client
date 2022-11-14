@@ -1,8 +1,8 @@
 import React from 'react';
 
-const PrimaryH3 = ({ children }) => {
+const PrimaryH3 = ({ children, extraClass }) => {
     return (
-        <h3 className='text-xl text-primary font-bold'>{children}</h3>
+        <h3 className={`text-xl text-primary font-bold ${extraClass}`}>{children}</h3>
     );
 };
 
